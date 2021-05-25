@@ -42,7 +42,7 @@
 - `export TOKEN="{your_generated_webhook_token}"`
 - `export USERNAME="{the username of your GitHub, GitLab or Bitbucket user}"`
 - `export REPO_ALLOWLIST="$YOUR_GIT_HOST/$YOUR_USERNAME/$YOUR_REPO" `
-		- for eg: "github.com/himanshuDevopsGuy/terraform-github-actions"
+    - for eg: "github.com/himanshuDevopsGuy/terraform-github-actions"
 
 ## Start Atlantis Command
 ```

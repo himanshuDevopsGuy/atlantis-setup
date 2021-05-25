@@ -8,7 +8,7 @@
 
 ## Download atlantis binary 
 - https://github.com/runatlantis/atlantis/releases/download/v0.17.0/atlantis_linux_amd64.zip
-- extract it and copy it inside /usr/local/bin
+- extract it and copy it inside `/usr/local/bin`
 
 ## Download ngrok
 - https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
@@ -18,8 +18,8 @@
  ./ngrok http 4141
 ```
 ## Set some environment variables
-- export URL="https://localhost.ngrok.io"
-- export SECRET="{YOUR_RANDOM_STRING}"
+- `export URL="https://localhost.ngrok.io"`
+- `export SECRET="{YOUR_RANDOM_STRING}"`
 
 ## Now Configure  a webhook inside your github repository
 - Go to your repo's settings
@@ -39,9 +39,9 @@
 - click Add webhook
 
 ## Set some more environment variables
-- export TOKEN="{your_generated_webhook_token}"
-- export USERNAME="{the username of your GitHub, GitLab or Bitbucket user}"
-- export REPO_ALLOWLIST="$YOUR_GIT_HOST/$YOUR_USERNAME/$YOUR_REPO" 
+- `export TOKEN="{your_generated_webhook_token}"`
+- `export USERNAME="{the username of your GitHub, GitLab or Bitbucket user}"`
+- `export REPO_ALLOWLIST="$YOUR_GIT_HOST/$YOUR_USERNAME/$YOUR_REPO" `
 		- for eg: "github.com/himanshuDevopsGuy/terraform-github-actions"
 
 ## Start Atlantis Command
